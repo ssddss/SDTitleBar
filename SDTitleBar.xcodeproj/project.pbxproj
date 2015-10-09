@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3821DBB41BC7AAC200283F5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3821DBB31BC7AAC200283F5D /* main.m */; };
+		3821DBB71BC7AAC200283F5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3821DBB61BC7AAC200283F5D /* AppDelegate.m */; };
+		3821DBBA1BC7AAC200283F5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3821DBB91BC7AAC200283F5D /* ViewController.m */; };
+		3821DBBD1BC7AAC200283F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3821DBBB1BC7AAC200283F5D /* Main.storyboard */; };
+		3821DBBF1BC7AAC200283F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3821DBBE1BC7AAC200283F5D /* Assets.xcassets */; };
+		3821DBC21BC7AAC200283F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3821DBC01BC7AAC200283F5D /* LaunchScreen.storyboard */; };
+		3821DBCD1BC7AAC200283F5D /* SDTitleBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3821DBCC1BC7AAC200283F5D /* SDTitleBarTests.m */; };
+		3821DBD81BC7AAC200283F5D /* SDTitleBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3821DBD71BC7AAC200283F5D /* SDTitleBarUITests.m */; };
+		3821DBE61BC7B5B800283F5D /* NewsURLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3821DBE51BC7B5B800283F5D /* NewsURLs.plist */; settings = {ASSET_TAGS = (); }; };
+		3821DBE91BC7B5DF00283F5D /* SDTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3821DBE81BC7B5DF00283F5D /* SDTitleLabel.m */; settings = {ASSET_TAGS = (); }; };
+		3821DBED1BC7B96A00283F5D /* SDContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3821DBEB1BC7B96A00283F5D /* SDContentViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3821DBEE1BC7B96A00283F5D /* SDContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3821DBEC1BC7B96A00283F5D /* SDContentViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		BFF1F1F67F335E571142A2C3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AB9CDB849C6293DA15DB7B /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3821DBC91BC7AAC200283F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3821DBA71BC7AAC200283F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3821DBAE1BC7AAC200283F5D;
+			remoteInfo = SDTitleBar;
+		};
+		3821DBD41BC7AAC200283F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3821DBA71BC7AAC200283F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3821DBAE1BC7AAC200283F5D;
+			remoteInfo = SDTitleBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00AB9CDB849C6293DA15DB7B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3821DBAF1BC7AAC200283F5D /* SDTitleBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDTitleBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3821DBB31BC7AAC200283F5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3821DBB51BC7AAC200283F5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3821DBB61BC7AAC200283F5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3821DBB81BC7AAC200283F5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3821DBB91BC7AAC200283F5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3821DBBC1BC7AAC200283F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3821DBBE1BC7AAC200283F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3821DBC11BC7AAC200283F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3821DBC31BC7AAC200283F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3821DBC81BC7AAC200283F5D /* SDTitleBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDTitleBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3821DBCC1BC7AAC200283F5D /* SDTitleBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDTitleBarTests.m; sourceTree = "<group>"; };
+		3821DBCE1BC7AAC200283F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3821DBD31BC7AAC200283F5D /* SDTitleBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDTitleBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3821DBD71BC7AAC200283F5D /* SDTitleBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDTitleBarUITests.m; sourceTree = "<group>"; };
+		3821DBD91BC7AAC200283F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3821DBE51BC7B5B800283F5D /* NewsURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewsURLs.plist; sourceTree = "<group>"; };
+		3821DBE71BC7B5DF00283F5D /* SDTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTitleLabel.h; sourceTree = "<group>"; };
+		3821DBE81BC7B5DF00283F5D /* SDTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTitleLabel.m; sourceTree = "<group>"; };
+		3821DBEA1BC7B96A00283F5D /* SDContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDContentViewController.h; sourceTree = "<group>"; };
+		3821DBEB1BC7B96A00283F5D /* SDContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDContentViewController.m; sourceTree = "<group>"; };
+		3821DBEC1BC7B96A00283F5D /* SDContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDContentViewController.xib; sourceTree = "<group>"; };
+		66CACCD948097741AEF40432 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C353D8D46F64064C63F0E34A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3821DBAC1BC7AAC200283F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF1F1F67F335E571142A2C3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3821DBC51BC7AAC200283F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3821DBD01BC7AAC200283F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B1B376AC28AA10D41BA6D27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C353D8D46F64064C63F0E34A /* Pods.debug.xcconfig */,
+				66CACCD948097741AEF40432 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3821DBA61BC7AAC200283F5D = {
+			isa = PBXGroup;
+			children = (
+				3821DBB11BC7AAC200283F5D /* SDTitleBar */,
+				3821DBCB1BC7AAC200283F5D /* SDTitleBarTests */,
+				3821DBD61BC7AAC200283F5D /* SDTitleBarUITests */,
+				3821DBB01BC7AAC200283F5D /* Products */,
+				2B1B376AC28AA10D41BA6D27 /* Pods */,
+				54480E682C1ECDDA49510E98 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3821DBB01BC7AAC200283F5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3821DBAF1BC7AAC200283F5D /* SDTitleBar.app */,
+				3821DBC81BC7AAC200283F5D /* SDTitleBarTests.xctest */,
+				3821DBD31BC7AAC200283F5D /* SDTitleBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3821DBB11BC7AAC200283F5D /* SDTitleBar */ = {
+			isa = PBXGroup;
+			children = (
+				3821DBB51BC7AAC200283F5D /* AppDelegate.h */,
+				3821DBB61BC7AAC200283F5D /* AppDelegate.m */,
+				3821DBE71BC7B5DF00283F5D /* SDTitleLabel.h */,
+				3821DBE81BC7B5DF00283F5D /* SDTitleLabel.m */,
+				3821DBB81BC7AAC200283F5D /* ViewController.h */,
+				3821DBB91BC7AAC200283F5D /* ViewController.m */,
+				3821DBBB1BC7AAC200283F5D /* Main.storyboard */,
+				3821DBBE1BC7AAC200283F5D /* Assets.xcassets */,
+				3821DBC01BC7AAC200283F5D /* LaunchScreen.storyboard */,
+				3821DBC31BC7AAC200283F5D /* Info.plist */,
+				3821DBB21BC7AAC200283F5D /* Supporting Files */,
+				3821DBEA1BC7B96A00283F5D /* SDContentViewController.h */,
+				3821DBEB1BC7B96A00283F5D /* SDContentViewController.m */,
+				3821DBEC1BC7B96A00283F5D /* SDContentViewController.xib */,
+			);
+			path = SDTitleBar;
+			sourceTree = "<group>";
+		};
+		3821DBB21BC7AAC200283F5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3821DBE51BC7B5B800283F5D /* NewsURLs.plist */,
+				3821DBB31BC7AAC200283F5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3821DBCB1BC7AAC200283F5D /* SDTitleBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				3821DBCC1BC7AAC200283F5D /* SDTitleBarTests.m */,
+				3821DBCE1BC7AAC200283F5D /* Info.plist */,
+			);
+			path = SDTitleBarTests;
+			sourceTree = "<group>";
+		};
+		3821DBD61BC7AAC200283F5D /* SDTitleBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3821DBD71BC7AAC200283F5D /* SDTitleBarUITests.m */,
+				3821DBD91BC7AAC200283F5D /* Info.plist */,
+			);
+			path = SDTitleBarUITests;
+			sourceTree = "<group>";
+		};
+		54480E682C1ECDDA49510E98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00AB9CDB849C6293DA15DB7B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3821DBAE1BC7AAC200283F5D /* SDTitleBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3821DBDC1BC7AAC200283F5D /* Build configuration list for PBXNativeTarget "SDTitleBar" */;
+			buildPhases = (
+				A73724694D658EB39AE3C7E7 /* Check Pods Manifest.lock */,
+				3821DBAB1BC7AAC200283F5D /* Sources */,
+				3821DBAC1BC7AAC200283F5D /* Frameworks */,
+				3821DBAD1BC7AAC200283F5D /* Resources */,
+				A04B4903AC6B8E9CB41BE48F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDTitleBar;
+			productName = SDTitleBar;
+			productReference = 3821DBAF1BC7AAC200283F5D /* SDTitleBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3821DBC71BC7AAC200283F5D /* SDTitleBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3821DBDF1BC7AAC200283F5D /* Build configuration list for PBXNativeTarget "SDTitleBarTests" */;
+			buildPhases = (
+				3821DBC41BC7AAC200283F5D /* Sources */,
+				3821DBC51BC7AAC200283F5D /* Frameworks */,
+				3821DBC61BC7AAC200283F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3821DBCA1BC7AAC200283F5D /* PBXTargetDependency */,
+			);
+			name = SDTitleBarTests;
+			productName = SDTitleBarTests;
+			productReference = 3821DBC81BC7AAC200283F5D /* SDTitleBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3821DBD21BC7AAC200283F5D /* SDTitleBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3821DBE21BC7AAC200283F5D /* Build configuration list for PBXNativeTarget "SDTitleBarUITests" */;
+			buildPhases = (
+				3821DBCF1BC7AAC200283F5D /* Sources */,
+				3821DBD01BC7AAC200283F5D /* Frameworks */,
+				3821DBD11BC7AAC200283F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3821DBD51BC7AAC200283F5D /* PBXTargetDependency */,
+			);
+			name = SDTitleBarUITests;
+			productName = SDTitleBarUITests;
+			productReference = 3821DBD31BC7AAC200283F5D /* SDTitleBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3821DBA71BC7AAC200283F5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ssdd;
+				TargetAttributes = {
+					3821DBAE1BC7AAC200283F5D = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = PE6U4QWZQU;
+					};
+					3821DBC71BC7AAC200283F5D = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3821DBAE1BC7AAC200283F5D;
+					};
+					3821DBD21BC7AAC200283F5D = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3821DBAE1BC7AAC200283F5D;
+					};
+				};
+			};
+			buildConfigurationList = 3821DBAA1BC7AAC200283F5D /* Build configuration list for PBXProject "SDTitleBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3821DBA61BC7AAC200283F5D;
+			productRefGroup = 3821DBB01BC7AAC200283F5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3821DBAE1BC7AAC200283F5D /* SDTitleBar */,
+				3821DBC71BC7AAC200283F5D /* SDTitleBarTests */,
+				3821DBD21BC7AAC200283F5D /* SDTitleBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3821DBAD1BC7AAC200283F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3821DBC21BC7AAC200283F5D /* LaunchScreen.storyboard in Resources */,
+				3821DBBF1BC7AAC200283F5D /* Assets.xcassets in Resources */,
+				3821DBBD1BC7AAC200283F5D /* Main.storyboard in Resources */,
+				3821DBE61BC7B5B800283F5D /* NewsURLs.plist in Resources */,
+				3821DBEE1BC7B96A00283F5D /* SDContentViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3821DBC61BC7AAC200283F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3821DBD11BC7AAC200283F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A04B4903AC6B8E9CB41BE48F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A73724694D658EB39AE3C7E7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3821DBAB1BC7AAC200283F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3821DBBA1BC7AAC200283F5D /* ViewController.m in Sources */,
+				3821DBED1BC7B96A00283F5D /* SDContentViewController.m in Sources */,
+				3821DBB71BC7AAC200283F5D /* AppDelegate.m in Sources */,
+				3821DBE91BC7B5DF00283F5D /* SDTitleLabel.m in Sources */,
+				3821DBB41BC7AAC200283F5D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3821DBC41BC7AAC200283F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3821DBCD1BC7AAC200283F5D /* SDTitleBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3821DBCF1BC7AAC200283F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3821DBD81BC7AAC200283F5D /* SDTitleBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3821DBCA1BC7AAC200283F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3821DBAE1BC7AAC200283F5D /* SDTitleBar */;
+			targetProxy = 3821DBC91BC7AAC200283F5D /* PBXContainerItemProxy */;
+		};
+		3821DBD51BC7AAC200283F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3821DBAE1BC7AAC200283F5D /* SDTitleBar */;
+			targetProxy = 3821DBD41BC7AAC200283F5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3821DBBB1BC7AAC200283F5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3821DBBC1BC7AAC200283F5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3821DBC01BC7AAC200283F5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3821DBC11BC7AAC200283F5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3821DBDA1BC7AAC200283F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3821DBDB1BC7AAC200283F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3821DBDD1BC7AAC200283F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C353D8D46F64064C63F0E34A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SDTitleBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sd.SDTitleBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/Pods/**";
+			};
+			name = Debug;
+		};
+		3821DBDE1BC7AAC200283F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66CACCD948097741AEF40432 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SDTitleBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sd.SDTitleBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/Pods/**";
+			};
+			name = Release;
+		};
+		3821DBE01BC7AAC200283F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SDTitleBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sd.SDTitleBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDTitleBar.app/SDTitleBar";
+			};
+			name = Debug;
+		};
+		3821DBE11BC7AAC200283F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SDTitleBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sd.SDTitleBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDTitleBar.app/SDTitleBar";
+			};
+			name = Release;
+		};
+		3821DBE31BC7AAC200283F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SDTitleBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sd.SDTitleBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SDTitleBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3821DBE41BC7AAC200283F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SDTitleBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sd.SDTitleBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SDTitleBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3821DBAA1BC7AAC200283F5D /* Build configuration list for PBXProject "SDTitleBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3821DBDA1BC7AAC200283F5D /* Debug */,
+				3821DBDB1BC7AAC200283F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3821DBDC1BC7AAC200283F5D /* Build configuration list for PBXNativeTarget "SDTitleBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3821DBDD1BC7AAC200283F5D /* Debug */,
+				3821DBDE1BC7AAC200283F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3821DBDF1BC7AAC200283F5D /* Build configuration list for PBXNativeTarget "SDTitleBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3821DBE01BC7AAC200283F5D /* Debug */,
+				3821DBE11BC7AAC200283F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3821DBE21BC7AAC200283F5D /* Build configuration list for PBXNativeTarget "SDTitleBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3821DBE31BC7AAC200283F5D /* Debug */,
+				3821DBE41BC7AAC200283F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3821DBA71BC7AAC200283F5D /* Project object */;
+}
